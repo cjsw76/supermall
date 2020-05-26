@@ -1,0 +1,25 @@
+@import "./normalize.css";
+
+:root{
+  --color-text: #666;
+  --color-high-text:#ff5777;
+  --color-tint: #ff8198;
+  --color-background:#fff;
+  --font-size: 14px;
+  --line-height: 1.5;
+}
+
+/* 清除浮动 */
+.clearfix:after{
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix{*zoom: 1}
+
+.left{float: left;}
+.right{float: right;}
+
+
